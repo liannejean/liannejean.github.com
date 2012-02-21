@@ -73,4 +73,16 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
+header#site-header {
+  position:relative;
+  text-indent:-9999px; 
+  display:block;	   
+  position:relative;
+  background:url(logo.gif) no-repeat left top;}
+#main-menu {
+  position:absolute;
+  
+}
+#main-menu li{}
+#footer
 
