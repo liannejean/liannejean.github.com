@@ -58,8 +58,8 @@ table {
   width:960px;
 }
 /* article floats */
- article#left {float: left; margin:10px; padding:10px}
- article#right {float: right; margin:10px; padding:10px}
+.left {float: left; margin:10px; padding:10px}
+.right {float: right; margin:10px; padding:10px}
 
 /* Clearfix */
 .clearfix:after {
