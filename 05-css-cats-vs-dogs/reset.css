@@ -82,7 +82,7 @@ header#site-header {position: relative; height: 100px; }
 	position:absolute; 
 	width:445px; 
 	height:95px;  
-	background:url(images/dogvscat-logo.gif) no-repeat top center; 
+	background:url(images/dogvscat-logo.gif no-repeat top left; 
 	text-indent:-9999px;
  }
 
