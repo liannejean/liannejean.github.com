@@ -80,18 +80,18 @@ header#site-header h1 a {
  }
 
 /* -----------Main Navigation----------- */
-nav#main-menu { height:50px; 
-				border: 3px 0;
+nav#main-menu { height:50px; 				
 	}
 nav#main-menu ul li{
 	display: block;
 	float: left;
+	border: 3px 0; 
+	border-color: black;
 	padding: 0px 15px;
-	}
-	
+	}	
 nav#main-menu ul li a{
 	display: block;
-	padding: 5px 10px;
+	padding: 5px 20px;
 	}
 	
 /* -----------Body Content----------- */
@@ -103,6 +103,7 @@ article.main-article{
 /* -----------Footer----------- */
 
 #footer{ 
+	position:
    clear:both; 
    padding:10px 0px; 
 }
