@@ -70,12 +70,12 @@ body { width:960px;
 
 header#site-header {position: relative; height: 100px; }
 
-#site-header h1 a {
+header#site-header h1 a {
  	display:block;
 	position:absolute; 
 	width:445px; 
 	height:95px;  
-	background:url(images/dogvscat-logo.gif) no-repeat top left; 
+	background:url(images/dogvscat-logo.gif) no-repeat top; 
 	text-indent:-9999px;
  }
 
