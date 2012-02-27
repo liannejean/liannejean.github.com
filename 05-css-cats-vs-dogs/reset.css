@@ -97,7 +97,7 @@ nav#main-menu ul li a{
 	padding: 5px 10px;}
 	
 /* -----------Body Content----------- */
-article#main-article{
+article.main-article{
 	float: left; width: 40%; padding: 15px 10px;	
 }
 /* -----------Footer----------- */
