@@ -51,14 +51,6 @@ table {
 }
 
 
-/* Center Content */
-
-.centered { 
-  margin:0 auto;
-  width:960px;
-}
-
-
 /* Clearfix */
 .clearfix:after {
 	content: ".";
@@ -71,7 +63,8 @@ table {
  
 /* -----------End Reset----------- */
 
-body { width:960px; margin:0 auto; }
+body { width:960px; 
+		margin:0 auto; }
 
 /* -----------Header----------- */
 
@@ -82,26 +75,34 @@ header#site-header {position: relative; height: 100px; }
 	position:absolute; 
 	width:445px; 
 	height:95px;  
-	background:url(images/dogvscat-logo.gif no-repeat top left; 
+	background:url(images/dogvscat-logo.gif) no-repeat top left; 
 	text-indent:-9999px;
  }
 
 /* -----------Main Navigation----------- */
-nav#main-menu { height:50px; border: 3px 0;}
+nav#main-menu { height:50px; 
+				border: 3px 0;
+	}
 nav#main-menu ul li{
 	display: block;
-	float: left
-	padding: 0px 15px;}
+	float: left;
+	padding: 0px 15px;
+	}
+	
 nav#main-menu ul li a{
 	display: block;
-	padding: 5px 10px;}
+	padding: 5px 10px;
+	}
 	
 /* -----------Body Content----------- */
 article.main-article{
-	float: left; width: 40%; padding: 15px 10px;	
-}
+	float: left; 
+	width: 40%; 
+	padding: 15px 10px;	
+	}
 /* -----------Footer----------- */
 
 #footer{ 
-   clear:both; padding:10px 0px; 
+   clear:both; 
+   padding:10px 0px; 
 }
