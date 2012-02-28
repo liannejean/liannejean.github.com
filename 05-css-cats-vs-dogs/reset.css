@@ -108,7 +108,7 @@ article.main-article {
 	}
 /* -----------Footer----------- */
 
-#footer{ 
+footer#site-footer{ 
+	clear:both;
 	position:relative;
-   	padding:10px 0px; 
 }
