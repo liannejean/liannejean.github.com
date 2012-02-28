@@ -83,18 +83,18 @@ header#site-header h1 a {
 nav#menu { 
 	height:60px; 	
 	background-color:purple;
-	position:relative;	
+	position:relative;
+	border-top:2px solid #000;
+	border-bottom:2px solid #000;	
 	}
 nav#menu ul li {
 	float:left;
-	padding:10px 5px;
-	border-top:3px solid #000;
-	border-bottom:3px solid #000;
 	}	
 nav#menu ul li a {
 	display:block;
 	font-size:16px;
 	text-decoration:none;
+	color:#000;
 	}
 nav#menu ul li a:hover {text-decoration:underline; }
 	
