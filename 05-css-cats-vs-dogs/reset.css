@@ -70,18 +70,22 @@ body {
 
 /*----------Main Styles-----------*/
 h1{
-	padding:10px;
+	padding:10px 0;
 	font:1.8em Georgia, "Times New Roman", Times, serif;
 	font-weight:bold;
 }
 p{
 	font:1em Georgia, "Times New Roman", Times, serif;
 	line-height:1.3em;
+	padding: 0 10px 20px 0;
 }
 img{
-	height:100%;
-	width:60%;
+	height:60%;
+	width:100%;
 }
+
+.content-left {float:left}
+.content-right {float:right}
 /* -----------Header----------- */
 
 header#site-header {position: relative; height: 100px; }
@@ -90,17 +94,14 @@ header#site-header h1 a {
 	position:absolute; 	
 	display:block; 
 	width:445px; 
-	height:95px;  
+	height:115px;  
 	background:url(images/dogvscat-logo.gif) no-repeat top; 
 	text-indent:-9999px;
-
-	margin: 10px 0px;
  }
 
 /* -----------Main Navigation----------- */
 nav#menu { 
 	height:40px; 	
-	background-color:gray;
 	position:relative;
 	border-top:2px solid #000;
 	border-bottom:2px solid #000;	
@@ -114,6 +115,7 @@ nav#menu ul li a {
 	font-size:16px;
 	text-decoration:none;
 	color:#000;
+	font:1em Georgia, "Times New Roman", Times, serif;
 	font-size:20px;
 	text-transform:uppercase;
 	}
