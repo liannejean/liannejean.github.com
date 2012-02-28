@@ -88,13 +88,13 @@ img{
 .content-right {float:right}
 /* -----------Header----------- */
 
-header#site-header {position: relative; height: 100px; }
+header#site-header {position: relative; height: 130px; }
 
 header#site-header h1 a {
 	position:absolute; 	
 	display:block; 
 	width:445px; 
-	height:115px;  
+	height:130px;  
 	background:url(images/dogvscat-logo.gif) no-repeat top; 
 	text-indent:-9999px;
  }
@@ -132,4 +132,5 @@ article.main-article {
 footer#site-footer{ 
 	clear:both;
 	position:relative;
+	padding:15px;
 }
