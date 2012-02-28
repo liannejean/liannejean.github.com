@@ -67,6 +67,21 @@ body {
  	margin:0 auto;
   	width:960px;
 }
+
+/*----------Main Styles-----------*/
+h1{
+	padding:10px;
+	font:2.0em Georgia, "Times New Roman", Times, serif;
+	font-weight:bold;
+}
+p{
+	font:1.2em Georgia, "Times New Roman", Times, serif;
+	line-height:1.5em;
+}
+img{
+	height:60%;
+	width:60%;
+}
 /* -----------Header----------- */
 
 header#site-header {position: relative; height: 100px; }
@@ -78,6 +93,8 @@ header#site-header h1 a {
 	height:95px;  
 	background:url(images/dogvscat-logo.gif) no-repeat top; 
 	text-indent:-9999px;
+	font-size:20px;
+	text-transform:uppercase;
  }
 
 /* -----------Main Navigation----------- */
