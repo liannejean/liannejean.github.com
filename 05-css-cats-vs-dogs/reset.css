@@ -84,7 +84,8 @@ nav#main-menu {
 	height:80px; 	
 	position:absolute;
 	margin: 20px 0;	
-	top:500px;		
+	top:500px;	
+	background-color:purple;	
 	}
 nav#main-menu li{
 	float: left;
