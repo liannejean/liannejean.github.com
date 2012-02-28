@@ -71,8 +71,8 @@ body {  width:960px;
 header#site-header {position: relative; height: 100px; }
 
 header#site-header h1 a {
- 	display:block;
-	position:absolute; 
+	position:absolute; 	
+	display:block; 
 	width:445px; 
 	height:95px;  
 	background:url(images/dogvscat-logo.gif) no-repeat top; 
@@ -81,13 +81,16 @@ header#site-header h1 a {
 
 /* -----------Main Navigation----------- */
 nav#menu { 
-	height:60px; 	
+	height:40px; 	
 	background-color:purple;
-	position:absolute;	
+	position:relative;	
 	}
 nav#menu li{
 	float: left;
+	display: block;
+	padding:10pc 5px;
 	border: 3px 0 solid #000; 
+
 	}	
 nav#menu li a{
 	display: block;
