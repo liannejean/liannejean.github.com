@@ -82,7 +82,8 @@ header#site-header h1 a {
 /* -----------Main Navigation----------- */
 nav#menu { 
 	height:60px; 	
-	background-color:purple;	
+	background-color:purple;
+	position:absolute;	
 	}
 nav#menu li{
 	float: left;
