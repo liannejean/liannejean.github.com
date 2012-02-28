@@ -85,20 +85,22 @@ nav#menu {
 	background-color:purple;
 	position:relative;	
 	}
-nav#menu li{
-	float: left;
-	display: block;
+nav#menu ul li {
+	float:left;
 	padding:10px 5px;
+	border-top:3px solid #000;
+	border-bottom:3px solid #000;
 	}	
-nav#menu li a{
-	display: block;
-	padding: 15px 400px;
+nav#menu ul li a {
+	display:block;
+	padding:15px 400px;
+	font-size:16px;
 	text-decoration:none;
 	}
-nav#menu li a:hover {text-decoration:underline; }
+nav#menu ul li a:hover {text-decoration:underline; }
 	
 /* -----------Body Content----------- */
-article.main-article{
+article.main-article {
 	float: left; 
 	width: 40%; 
 	padding: 15px 10px;	
