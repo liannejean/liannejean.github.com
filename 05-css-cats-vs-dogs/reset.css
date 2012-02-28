@@ -75,19 +75,21 @@ header#site-header h1 a {
 	position:absolute; 
 	width:445px; 
 	height:95px;  
-	background:url(images/dogvscat-logo.gif) no-repeat top; 
+	background:url(images/dogvscat-logo.gif) no-repeat bottom; 
 	text-indent:-9999px;
  }
 
 /* -----------Main Navigation----------- */
-nav#main-menu { height:50px; 				
+nav#main-menu { 
+	height:50px; 	
+	position:absolute;			
 	}
 nav#main-menu ul li{
 	display: block;
 	float: left;
 	border: 3px 0; 
 	border-color: black;
-	padding: 0px 15px;
+	padding: 0px 30px;
 	}	
 nav#main-menu ul li a{
 	display: block;
