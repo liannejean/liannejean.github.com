@@ -76,11 +76,11 @@ h1{
 }
 p{
 	font:1em Georgia, "Times New Roman", Times, serif;
-	line-height:1.3em;
+	line-height:1.4em;
 	padding: 0 10px 20px 0;
 }
 img{
-	height:60%;
+	height:40%;
 	width:100%;
 }
 
@@ -132,5 +132,5 @@ article.main-article {
 footer#site-footer{ 
 	clear:both;
 	position:relative;
-	padding:15px;
+	padding:10px;
 }
