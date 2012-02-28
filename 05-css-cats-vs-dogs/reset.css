@@ -81,14 +81,15 @@ header#site-header h1 a {
 
 /* -----------Main Navigation----------- */
 nav#menu { 
-	height:60px; 	
-	background-color:purple;
+	height:40px; 	
+	background-color:gray;
 	position:relative;
 	border-top:2px solid #000;
 	border-bottom:2px solid #000;	
 	}
 nav#menu ul li {
 	float:left;
+	padding 10px 30px;
 	}	
 nav#menu ul li a {
 	display:block;
