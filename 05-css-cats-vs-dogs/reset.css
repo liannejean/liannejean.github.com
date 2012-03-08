@@ -61,11 +61,19 @@ table {
 	height: 0;
 }
  
-/* -----------End Reset----------- */
 
-body { 
- 	margin:0 auto;
-  	width:960px;
+/* -----------End Reset----------- */
+.centered { 
+  margin: 0 auto;
+  width: 960px;
+}
+
+
+body { }
+
+#main-container {
+    width: 80%;
+    margin: 0 auto;
 }
 
 /*----------Main Styles-----------*/
@@ -99,6 +107,12 @@ header#site-header h1 a {
 	text-indent:-9999px;
  }
 
+header img {
+    display: block;
+	margin: 0 auto;
+}
+
+
 /* -----------Main Navigation----------- */
 nav#menu { 
 	height:40px; 	
@@ -109,6 +123,7 @@ nav#menu {
 nav#menu ul li {
 	float:left;
 	padding: 10px 30px;
+	list-style-type: disc;
 	}	
 nav#menu ul li a {
 	display:block;
@@ -119,6 +134,10 @@ nav#menu ul li a {
 	font-size:20px;
 	text-transform:uppercase;
 	}
+nav#menu li:first-child {
+		list-style-type: none;	
+	}	
+	
 nav#menu ul li a:hover {text-decoration:underline; }
 	
 /* -----------Body Content----------- */
@@ -133,4 +152,7 @@ footer#site-footer{
 	clear:both;
 	position:relative;
 	padding:10px;
+	display: block;
+	margin-top: 20px;
+	border-top: 3px solid black;
 }
