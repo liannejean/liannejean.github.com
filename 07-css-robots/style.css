@@ -54,12 +54,12 @@ body{width:80%;
 	margin:0 auto;
 	}	
 /* ---------- header&top-nav ---------- */
-header#site-wrapper {
+header#site-header {
 	position:relative;
 	height:130px;
-	background-color:pink;
+	background-color:#ecf2d3;
 }	
-header#site-wrapper h1 a{
+header#site-site-header h1 a{
  	 position:absolute; 
 	 display:block;
 	 width:306px;
