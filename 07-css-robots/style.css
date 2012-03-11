@@ -77,6 +77,7 @@ nav#top-nav a{
 	font-family:sans-serif;
 	font-size:0.7em;
 	text-decoration:none;
+	color:#744918;
 }
 nav#top-nav a:active{
 	text-decoration:underline;
@@ -93,8 +94,8 @@ nav#main-menu ul li{
 }
 nav#main-menu ul li a{
 	display:block;
-	padding:5px 20px 5px 0;
-	color:white;
+	font-family:sans-serif;
+	color:#fff;
 	font-size:1.1em;
 	text-decoration:none;
 }
@@ -102,9 +103,7 @@ nav#main-menu ul li a:active{
 	text-decoration:underline;
 }
 nav#main-menu ul li a:last-child{
-	color:#744918;
-	font-size:1.1em;
-	text-decoration:none;
+	color:#ecf2d3;
 }
 
 /* ---------- body ---------- */
