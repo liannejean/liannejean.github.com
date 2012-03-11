@@ -49,18 +49,19 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/********** end reset ************/
+/* ---------- end reset ---------- */
 body{width:80%;
 	margin:0 auto;
 	}	
-/**********header&top-nav**********/
+/* ---------- header&top-nav ---------- */
 header#site-wrapper {
 	position:relative;
 	height:130px;
-	background-color:#ecf2d3;
+	background-color:pink;
 }	
 header#site-wrapper h1 a{
  	 position:absolute; 
+	 display:block;
 	 width:306px;
 	 height:123px;  
 	 background:url(images/logo.png) no-repeat top left; 
@@ -80,7 +81,7 @@ nav#top-nav a:active{
 	text-decoration:underline;
 }
 
-/*************main-nav**************/
+/* ---------- main-nav ---------- */
 nav#main-nav{position:relative;
 	height:30px;
 	background-color:#744918;
@@ -105,7 +106,7 @@ nav#main-menu ul li a:last-child{
 	text-decoration:none;
 }
 
-/**********body**************/
+/* ---------- body ---------- */
 article#page{
 	float:left;
 	width:60%;
@@ -114,7 +115,7 @@ aside#sidebar{
 	float:right;
 	width:20%;
 }
-/*********footer************/
+/* ---------- footer ---------- */
 footer#site-footer {clear:both;
 position:relative;
 }
