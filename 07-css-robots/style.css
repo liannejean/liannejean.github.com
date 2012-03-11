@@ -54,11 +54,13 @@ body{width:80%;
 	margin:0 auto;
 	}	
 /**********header&top-nav**********/
-header#site-wrapper{
+header#site-wrapper {
 	position:relative;
+	height:130px;
 	background-color:#ecf2d3;
 }	
 header#site-wrapper h1 a{
+ 	 position:absolute; 
 	 width:306px;
 	 height:123px;  
 	 background:url(images/logo.png) no-repeat top left; 
