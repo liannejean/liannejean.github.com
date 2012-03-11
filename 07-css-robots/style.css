@@ -54,19 +54,6 @@ body{width:80%;
 	margin:0 auto;
 	}	
 /**********header&top-nav**********/
-nav#top-nav {
-	position:absolute;
-	right:30px;
-	top:5px;
-}
-nav#top-nav a{
-	font-family:san-serif;
-	font-size:0.7em;
-	text-decoration:none;
-}
-nav#top-nav a:active{
-	text-decoration:underline;
-}
 header#site-wrapper{
 	position:relative;
 	background-color:#ecf2d3;
@@ -77,6 +64,20 @@ header#site-wrapper h1 a{
 	 background:url(images/logo.png) no-repeat top left; 
 	 text-indent:-9999px;
 }
+nav#top-nav {
+	position:absolute;
+	right:30px;
+	top:5px;
+}
+nav#top-nav a{
+	font-family:sans-serif;
+	font-size:0.7em;
+	text-decoration:none;
+}
+nav#top-nav a:active{
+	text-decoration:underline;
+}
+
 /*************main-nav**************/
 nav#main-nav{position:relative;
 	height:30px;
@@ -84,23 +85,24 @@ nav#main-nav{position:relative;
 }
 nav#main-menu ul li{
 	float:left;
-	padding: 5px 20px 5px 0;
+	padding:5px 20px 5px 0;
 }
 nav#main-menu ul li a{
 	display:block;
-	padding: 5px 20px 5px 0;
+	padding:5px 20px 5px 0;
 	color:white;
-	font-size:1.1em;
-	text-decoration:none;
-}
-nav#main-menu ul li a:last-child{
-	color:#744918;
 	font-size:1.1em;
 	text-decoration:none;
 }
 nav#main-menu ul li a:active{
 	text-decoration:underline;
 }
+nav#main-menu ul li a:last-child{
+	color:#744918;
+	font-size:1.1em;
+	text-decoration:none;
+}
+
 /**********body**************/
 article#page{
 	float:left;
