@@ -66,20 +66,19 @@ header#site-header h1 a{
 	 height:123px;  
 	 background:url(images/logo.png) no-repeat top left; 
 	 text-indent:-9999px;
- 	 color:#744918;
 }
 nav#top-nav {
 	position:absolute;
 	right:30px;
 	top:5px;
 }
-nav#top-nav a{
+nav#top-nav a:link;{
 	font-family:sans-serif;
 	font-size:0.7em;
 	text-decoration:none;
 	color:#744918;
 }
-nav#top-nav a:active{
+nav#top-nav a:hover{
 	text-decoration:underline;
 }
 
@@ -92,14 +91,14 @@ nav#main-menu ul li{
 	float:left;
 	padding:5px 20px 5px 0;
 }
-nav#main-menu ul li a{
+nav#main-menu ul li a:link{
 	display:block;
 	font-family:sans-serif;
 	color:#fff;
 	font-size:1.1em;
 	text-decoration:none;
 }
-nav#main-menu ul li a:active{
+nav#main-menu ul li a:hover{
 	text-decoration:underline;
 }
 nav#main-menu ul li a:last-child{
@@ -113,7 +112,7 @@ article#page {
 	}
 aside#sidebar {
 	float:right;
-	width:20%;
+	width:30%;
 }
 /* ---------- footer ---------- */
 footer#site-footer {
