@@ -59,13 +59,14 @@ header#site-header {
 	height:130px;
 	background-color:#ecf2d3;
 }	
-header#site-site-header h1 a{
+header#site-header h1 a{
  	 position:absolute; 
 	 display:block;
 	 width:306px;
 	 height:123px;  
 	 background:url(images/logo.png) no-repeat top left; 
 	 text-indent:-9999px;
+ 	 color:#744918;
 }
 nav#top-nav {
 	position:absolute;
@@ -82,7 +83,7 @@ nav#top-nav a:active{
 }
 
 /* ---------- main-nav ---------- */
-nav#main-nav{position:relative;
+nav#main-menu {position:relative;
 	height:30px;
 	background-color:#744918;
 }
@@ -107,15 +108,16 @@ nav#main-menu ul li a:last-child{
 }
 
 /* ---------- body ---------- */
-article#page{
+article#page {
 	float:left;
 	width:60%;
 	}
-aside#sidebar{
+aside#sidebar {
 	float:right;
 	width:20%;
 }
 /* ---------- footer ---------- */
-footer#site-footer {clear:both;
-position:relative;
+footer#site-footer {
+	clear:both;
+	position:relative;
 }
