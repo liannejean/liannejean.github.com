@@ -60,6 +60,7 @@ body{width:100%;
 #site-wrapper{
 	background-color:#ecf2d3;
 	width:100%;
+	margin:0 auto;
 }
 header#site-header {
 	position:relative;
@@ -97,6 +98,7 @@ nav#top-nav a:hover{
 nav#main-menu {position:relative;
 	height:30px;
 	width:80%;
+	margin:0 auto;
 }
 nav#main-menu ul li{
 	float:left;
@@ -123,7 +125,7 @@ nav#main-menu ul li a:last-child{
 	width:100%;
 }
 #content{
-	with:80%;
+	width:80%;
 }
 article#page {
 	float:left;
