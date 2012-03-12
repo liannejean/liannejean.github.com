@@ -123,18 +123,23 @@ article#page {
 article#page h1{
 	color:#744918;
 	font-family:'Lobster', cursive;
-	font-size:1.8em;
+	font-size:2em;
+	padding-bottom:20px;
 }
 article#page h2{
 	color:#744918;
 	font-family:arial, sans-serif;
 	font-size:1.1em;
 	text-transform:uppercase;
+	padding-bottom:10px;
 }
+
 article#page p{	
 	color:#333;
 	font-family:arial, sans-serif;
-	font-size:0.9em; 
+	font-size:0.8em; 
+	line-height:1.2em;
+	padding-bottom:10px;
 }
 aside#sidebar {
 	float:right;
@@ -146,6 +151,7 @@ aside#sidebar h1{
 	font-family:arial, sans-serif;
 	font-size:1.1em;
 	text-transform:uppercase;
+	padding-bottom:10px;
 }
 aside#sidebar p{
 	color:#333;
@@ -155,21 +161,22 @@ aside#sidebar p{
 aside#sidebar ul li a{
 	color:#333;
 	font-family:arial, sans-serif;
-	font-size:0.9em;
+	font-size:0.8em;
 	list-style-type: none;
 	text-decoration:none;
+	line-height:1.2em;
 }
 aside#sidebar img{
 	width:95%;
 }
 /* ------------- footer ------------- */
-#footer-wrapper{
-	background-color:#744918;
-}
+
 footer#site-footer {
 	clear:both;
 	position:relative;
 	height:150px;
+	background-color:#744918;
+	padding-top:20px;
 }
 section#footer-contact{
 	float:left;
@@ -180,11 +187,13 @@ section#footer-contact h1{
 	font-family:arial, sans-serif;
 	font-size:1.1em;
 	text-transform:uppercase;
+	padding-bottom:20px;
 }
 section#footer-contact p{
 	color:#fff;
 	font-family:arial, sans-serif;
-	font-size:0.9em;
+	font-size:0.8em;
+	line-height:1.2em;
 }
 section#footer-follow{
 	float:right;
@@ -195,6 +204,7 @@ section#footer-follow h1{
 	font-family:arial, sans-serif;
 	font-size:1.1em;
 	text-transform:uppercase;
+	padding-bottom:20px;
 }
 section#footer-follow ul li a{
 	float:left;
