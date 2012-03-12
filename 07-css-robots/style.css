@@ -53,16 +53,18 @@ table {
 
 
 
-body{width:80%;
+body{width:100%;
 	margin:0 auto;
 	}	
 /* ------------- header&top-nav -------------- */
 #site-wrapper{
 	background-color:#ecf2d3;
+	width:100%;
 }
 header#site-header {
 	position:relative;
 	height:130px;
+	width:80%;
 }	
 header#site-header h1 a{
  	 position:absolute; 
@@ -90,10 +92,11 @@ nav#top-nav a:hover{
 /* -------------- main-nav -------------- */
 #menu-wrapper{
     background-color:#744918;
+	width:100%;
 }
 nav#main-menu {position:relative;
 	height:30px;
-	background-color:#744918;
+	width:80%;
 }
 nav#main-menu ul li{
 	float:left;
@@ -115,6 +118,13 @@ nav#main-menu ul li a:last-child{
 }
 
 /* ------------- body content ------------- */
+#content-wrapper{
+	background-color:#fff;
+	width:100%;
+}
+#content{
+	with:80%;
+}
 article#page {
 	float:left;
 	width:60%;
@@ -135,16 +145,16 @@ article#page h2{
 }
 
 article#page p{	
-	color:#333;
+	color:#8B8B8B;
 	font-family:arial, sans-serif;
 	font-size:0.8em; 
-	line-height:1.3em;
+	line-height:1.4em;
 	padding-bottom:10px;
 }
 aside#sidebar {
 	float:right;
 	width:30%;
-	padding:20px 10px;
+	padding:75px 10px 0 10px;
 }
 aside#sidebar h1{
 	color:#744918;
@@ -159,7 +169,7 @@ aside#sidebar p{
 	font-size:0.9em;
 }
 aside#sidebar ul li a{
-	color:#333;
+	color:#744918;
 	font-family:arial, sans-serif;
 	font-size:0.8em;
 	list-style-type: none;
@@ -171,13 +181,16 @@ aside#sidebar img{
 	padding-top:10px;
 }
 /* ------------- footer ------------- */
-
+footer-wrapper{
+	background-color:#744918;
+	width:100%;
+}
 footer#site-footer {
 	clear:both;
 	position:relative;
 	height:150px;
-	background-color:#744918;
 	padding-top:20px;
+	width:80%;
 }
 section#footer-contact{
 	float:left;
