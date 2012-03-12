@@ -49,15 +49,20 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* ---------- end reset ---------- */
+/* ------------------------- end reset ------------------------- */
+
+
+
 body{width:80%;
 	margin:0 auto;
 	}	
-/* ---------- header&top-nav ---------- */
+/* ------------- header&top-nav -------------- */
+#site-wrapper{
+	background-color:#ecf2d3;
+}
 header#site-header {
 	position:relative;
 	height:130px;
-	background-color:#ecf2d3;
 }	
 header#site-header h1 a{
  	 position:absolute; 
@@ -72,7 +77,7 @@ nav#top-nav {
 	right:30px;
 	top:5px;
 }
-nav#top-nav a:link;{
+nav#top-nav a{
 	font-family:sans-serif;
 	font-size:0.7em;
 	text-decoration:none;
@@ -82,40 +87,117 @@ nav#top-nav a:hover{
 	text-decoration:underline;
 }
 
-/* ---------- main-nav ---------- */
+/* -------------- main-nav -------------- */
+#menu-wrapper{
+    background-color:#744918;
+}
 nav#main-menu {position:relative;
 	height:30px;
 	background-color:#744918;
 }
 nav#main-menu ul li{
 	float:left;
-	padding:5px 20px 5px 0;
+	padding:7px 30px 7px 0;
 }
-nav#main-menu ul li a:link{
+nav#main-menu ul li a{
 	display:block;
 	font-family:sans-serif;
 	color:#fff;
-	font-size:1.1em;
+	font-size:1em;
 	text-decoration:none;
+	text-transform:uppercase;
 }
 nav#main-menu ul li a:hover{
 	text-decoration:underline;
 }
 nav#main-menu ul li a:last-child{
-	color:#ecf2d3;
+	color:#A7AA43;
 }
 
-/* ---------- body ---------- */
+/* ------------- body content ------------- */
 article#page {
 	float:left;
 	width:60%;
+	padding:20px 10px;
 	}
+article.page h1{
+	color:#744918;
+	font-family:'Lobster', cursive;
+	font-size:1.8em;
+}
+article.page h2{
+	color:#744918;
+	font-family:arial, sans-serif;
+	font-size:1.1em;
+	text-transform:uppercase;
+}
+article.page p{	
+	color:#333;
+	font-family:arial, sans-serif;
+	font-size:0.9em; 
+}
 aside#sidebar {
 	float:right;
 	width:30%;
+	padding:20px 10px;
 }
-/* ---------- footer ---------- */
+aside.sidebar h1{
+	color:#744918;
+	font-family:arial, sans-serif;
+	font-size:1.1em;
+	text-transform:uppercase;
+}
+aside.sidebar p{
+	color:#333;
+	font-family:arial, sans-serif;
+	font-size:0.9em;
+}
+aside.sidebar ul li a{
+	color:#333;
+	font-family:arial, sans-serif;
+	font-size:0.9em;
+	list-style-type: none;
+	text-decoration:none;
+}
+aside.sidebar img{
+	width:95%;
+}
+/* ------------- footer ------------- */
+#footer-wrapper{
+	background-color:#744918;
+}
 footer#site-footer {
 	clear:both;
 	position:relative;
+	height:150px;
 }
+section#footer-contact{
+	float:left;
+	width:30%;
+}
+section.footer-contact h1{
+	color:#ecf2d3;
+	font-family:arial, sans-serif;
+	font-size:1.1em;
+	text-transform:uppercase;
+}
+section.footer-contact p{
+	color:#fff;
+	font-family:arial, sans-serif;
+	font-size:0.9em;
+}
+section#footer-follow{
+	float:right;
+	width:30%;
+}	
+section.footer-follow h1{
+	color:#ecf2d3;
+	font-family:arial, sans-serif;
+	font-size:1.1em;
+	text-transform:uppercase;
+}
+section.footer-follow ul li{
+	float:left;
+	padding: 10px 5px;
+}
+
