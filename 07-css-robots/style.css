@@ -120,18 +120,18 @@ article#page {
 	width:60%;
 	padding:20px 10px;
 	}
-article.page h1{
+article#page h1{
 	color:#744918;
 	font-family:'Lobster', cursive;
 	font-size:1.8em;
 }
-article.page h2{
+article#page h2{
 	color:#744918;
 	font-family:arial, sans-serif;
 	font-size:1.1em;
 	text-transform:uppercase;
 }
-article.page p{	
+article#page p{	
 	color:#333;
 	font-family:arial, sans-serif;
 	font-size:0.9em; 
@@ -141,25 +141,25 @@ aside#sidebar {
 	width:30%;
 	padding:20px 10px;
 }
-aside.sidebar h1{
+aside#sidebar h1{
 	color:#744918;
 	font-family:arial, sans-serif;
 	font-size:1.1em;
 	text-transform:uppercase;
 }
-aside.sidebar p{
+aside#sidebar p{
 	color:#333;
 	font-family:arial, sans-serif;
 	font-size:0.9em;
 }
-aside.sidebar ul li a{
+aside#sidebar ul li a{
 	color:#333;
 	font-family:arial, sans-serif;
 	font-size:0.9em;
 	list-style-type: none;
 	text-decoration:none;
 }
-aside.sidebar img{
+aside#sidebar img{
 	width:95%;
 }
 /* ------------- footer ------------- */
@@ -175,13 +175,13 @@ section#footer-contact{
 	float:left;
 	width:30%;
 }
-section.footer-contact h1{
+section#footer-contact h1{
 	color:#ecf2d3;
 	font-family:arial, sans-serif;
 	font-size:1.1em;
 	text-transform:uppercase;
 }
-section.footer-contact p{
+section#footer-contact p{
 	color:#fff;
 	font-family:arial, sans-serif;
 	font-size:0.9em;
@@ -190,13 +190,13 @@ section#footer-follow{
 	float:right;
 	width:30%;
 }	
-section.footer-follow h1{
+section#footer-follow h1{
 	color:#ecf2d3;
 	font-family:arial, sans-serif;
 	font-size:1.1em;
 	text-transform:uppercase;
 }
-section.footer-follow ul li{
+section#footer-follow ul li a{
 	float:left;
 	padding: 10px 5px;
 }
