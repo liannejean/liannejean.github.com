@@ -118,13 +118,13 @@ nav#main-menu ul li a:last-child{
 article#page {
 	float:left;
 	width:60%;
-	padding:20px 10px;
+	padding:30px 10px;
 	}
 article#page h1{
 	color:#744918;
-	font-family:'Lobster', cursive;
-	font-size:2em;
-	padding-bottom:20px;
+	font-family: 'Lobster', cursive;
+	font-size:22em;
+	padding-bottom:10px;
 }
 article#page h2{
 	color:#744918;
@@ -138,7 +138,7 @@ article#page p{
 	color:#333;
 	font-family:arial, sans-serif;
 	font-size:0.8em; 
-	line-height:1.2em;
+	line-height:1.3em;
 	padding-bottom:10px;
 }
 aside#sidebar {
@@ -168,6 +168,7 @@ aside#sidebar ul li a{
 }
 aside#sidebar img{
 	width:95%;
+	padding-top:10px;
 }
 /* ------------- footer ------------- */
 
@@ -187,7 +188,7 @@ section#footer-contact h1{
 	font-family:arial, sans-serif;
 	font-size:1.1em;
 	text-transform:uppercase;
-	padding-bottom:20px;
+	padding-bottom:10px;
 }
 section#footer-contact p{
 	color:#fff;
@@ -204,10 +205,10 @@ section#footer-follow h1{
 	font-family:arial, sans-serif;
 	font-size:1.1em;
 	text-transform:uppercase;
-	padding-bottom:20px;
+	padding-bottom:10px;
 }
 section#footer-follow ul li a{
 	float:left;
-	padding: 10px 5px;
+	padding: 0 5px;
 }
 
