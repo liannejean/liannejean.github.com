@@ -60,12 +60,12 @@ body{width:100%;
 #site-wrapper{
 	background-color:#ecf2d3;
 	width:100%;
-	margin:0 auto;
 }
 header#site-header {
 	position:relative;
 	height:130px;
 	width:80%;
+	margin:0 auto;
 }	
 header#site-header h1 a{
  	 position:absolute; 
@@ -126,6 +126,7 @@ nav#main-menu ul li a:last-child{
 }
 #content{
 	width:80%;
+	margin:0 auto;
 }
 article#page {
 	float:left;
@@ -193,6 +194,7 @@ footer#site-footer {
 	height:150px;
 	padding-top:20px;
 	width:80%;
+	margin:0 auto;
 }
 section#footer-contact{
 	float:left;
