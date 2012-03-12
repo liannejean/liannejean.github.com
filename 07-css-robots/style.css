@@ -185,11 +185,11 @@ aside#sidebar img{
 }
 /* ------------- footer ------------- */
 #footer-wrapper{
+	clear:both;
 	background-color:#744918;
 	width:100%;
 }
 footer#site-footer {
-	clear:both;
 	position:relative;
 	height:150px;
 	padding-top:20px;
