@@ -53,10 +53,15 @@ table {
 
 
 
-body{width:100%;
+body{
+	width:100%;
 	margin:0 auto;
 	}
-	
+h1{ 
+	font-family: 'Sofia', cursive;
+	color:#fff;
+	font-size:2em;
+	}	
 	
 	
 #site-wrapper{
